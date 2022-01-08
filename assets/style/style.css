@@ -1,0 +1,160 @@
+.container {
+    text-align: center;
+}
+
+.gitHub{
+    position: fixed;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%);
+    top: 0%;
+    right: 0%;
+    padding-bottom: 50px;
+    color: black;
+}
+.iconStyle{
+    transform: rotate(45deg);
+    font-size: 30px;
+}
+.gitHub:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.block{
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+}
+.key {
+    display: inline-block!important;
+    min-width: 45px;
+    height: 45px;
+    padding: 4px 0 0 6px;
+    margin: 5px;
+    background: #333;
+    border: 2px solid #252525;
+    border-radius: 6px;
+    box-shadow: inset -6px -4px 0 0 #1b1b1b;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 450px;
+}
+hr{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: white;
+    margin: 140px 0 0 0;
+    transform: rotate(13.5deg);
+    z-index: -1;
+}
+
+/* INSTRUMENTS */
+
+.instruments{
+    z-index: 1;
+}
+.tamInst{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+}
+
+#bongo{
+    background-image: url(../img/bongo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#cymbal{
+    background-image: url(../img/cymbal.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#cowbell{
+    background-image: url(../img/cowbell.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#tambourine{
+    background-image: url(../img/tambourine.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#piano{
+    background-image: url(../img/keyboard.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#marimba{
+    background-image: url(../img/marimba.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
+/* SOUNDS */
+
+/* .aKey:active{
+    background-color: pink;
+    cue: url(../sound/bongo1.wav);
+} */
+
+/* a:hover {cue: url("sonido_hover.wav");} */
+
+/* CAT */
+
+.tamCat{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+}
+
+.tamPaw{
+    width: 50%;
+    height: 450px;
+    position: absolute;
+}
+
+.tamMouth{
+    width: 50%;
+    height: 450px;
+    position: absolute;
+}
+
+#cat{
+    background-image: url(../img/cat.png);
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+#pawLeft{
+    background-image: url(../img/paw-left.png);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+#pawRight{
+    background-image: url(../img/paw-right.png);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}
+
+#mouth{
+    background-image: url(../img/mouth.png);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+}

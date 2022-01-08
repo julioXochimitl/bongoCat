@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/style/grind.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/style/icon.css">
+
+    <title>Bomgo Cat</title>
+</head>
+<body style="background-color: black; color: white; font-family: 'Open Sans', sans-serif;">
+    <!-- KEYS -->
+    <div class="header" style="text-align: center;">
+        <div class="block">
+            Bongos <br>
+            <span class="key aKey">A</span>
+            <span class="key">D</span>
+        </div>
+        <div class="block">
+            Cymbal <br>
+            <span class="key">C</span>
+        </div>
+        <div class="block">
+            Cowbell <br>
+            <span class="key">F</span>
+        </div>
+        <div class="block">
+            Tambourine <br>
+            <span class="key">B</span>
+        </div>
+        <div class="block">
+            Meow <br>
+            <span class="key" style="padding: 4px 75px 0 6px;">SPACE</span>
+        </div>
+        <div class="block">
+                Piano <br>
+            <span class="key">1</span>
+            <span>...</span>
+            <span class="key">9</span>
+            <span class="key">0</span>
+        </div>
+        <div class="block">
+                Marimba <br>
+            <span class="key">Q</span>
+            <span class="key">W</span>
+            <span>...</span>
+            <span class="key">P</span>
+        </div>
+        <a href="https://github.com/Externalizable/bongo.cat" target="_blank">
+            <div class="col-1 gitHub" style="border: 0px;">
+                <div class="iconStyle" style="padding: 6px 73px 42px 0px;">
+                        <span class="icon-github1"></span>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- CAT -->
+    <div id="container">
+        <hr>
+        <div class="row">
+            <div class="col-1 tamCat" id="cat" style=" border: 0px;"></div>
+            <div class="col-1 tamPaw" id="pawLeft" style="right: 400px; border: 0px;"></div>
+            <div class="col-1 tamPaw" id="pawRight" style="right: 400px; border: 0px;"></div>
+            <div class="col-1 tamMouth" id="mouth" style="right: 400px; border: 0px;"></div>
+        </div>
+        <div class="isntruments">
+            <div class="col-1 tamInst" id="bongo" style="visibility: visible; border: 0px;"></div>
+            <div class="col-1 tamInst" id="cymbal" style="visibility: hidden; border: 0px;"></div>
+            <div class="col-1 tamInst" id="cowbell" style="visibility: hidden; border: 0px;"></div>
+            <div class="col-1 tamInst" id="tambourine" style="visibility: hidden; border: 0px;"></div>
+            <div class="col-1 tamInst" id="piano" style="visibility: hidden; border: 0px;"></div>
+            <div class="col-1 tamInst" id="marimba" style="visibility: hidden; border: 0px;"></div>
+        </div>
+    </div>
+
+    <div>
+        <audio src="assets/sound/bongo0.wav" accesskey="a"></audio>
+    </div>
+    
+</body>
+</html>
